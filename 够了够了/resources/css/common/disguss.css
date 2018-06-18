@@ -1,0 +1,62 @@
+body{
+	padding-left: 270px;
+	padding-right: 20px;
+}
+
+
+
+
+.sidebar{
+	position: fixed;
+	left: 30px;
+	top: 25%;
+	width: 240px;
+	border: 1px solid #fbb3b3;
+}
+.sidebar ul{
+	list-style-type: none;
+	padding: 0;
+}
+.sidebar ul li{
+	width: 240px;
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	margin: 0 auto;
+}
+.sidebar ul li a{
+	display: block;
+	text-decoration: none;
+}
+
+
+
+.main{
+	margin: 50px;
+}
+.article{
+	padding: 20px;
+	height: 120px;
+}
+.title{
+	font-size: 18px;
+	font-weight: 600;
+}
+.spot{
+	font-size: 15px;
+	color: #787575;
+	word-wrap: break-all;
+}
+.details{
+	overflow: hidden;
+	font-size: 15px;
+}
+.author,.data,.classify{
+	float: left;
+	padding-right: 15px;
+}
+.praise,.evaluate{
+	float: right;
+	padding-left: 15px;
+}

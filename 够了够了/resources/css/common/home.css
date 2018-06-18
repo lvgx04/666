@@ -1,0 +1,122 @@
+.nav{
+	width: 100%;
+	height: 80px;
+	overflow: hidden;
+	background-color: rgb(215, 159, 159);
+}
+.logo_big{
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	border-radius: 37.5px;
+	margin-top: 2px;
+	margin-left: 40px;
+}
+.logo_mid{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.logo_small{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 22.5px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.nav ul{
+	display: inline-block;
+	float: right;
+	height: 80px;
+	margin-right: 40px;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+}
+.nav ul li a{
+	display: block;
+	font-size: 20px;
+	line-height: 50px;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	margin: 15px 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+
+
+
+
+
+.banner{
+	width: 1280px;
+	height: 500px;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner .img{
+	width: 6400px;
+	height: 500px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner .img img{
+	width: 1280px;
+	height: 500px;
+}
+.banner .img li{
+	float: left;
+}
+.banner .num{
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	left: 0;
+	text-align: center;
+	font-size: 0px;
+}
+.banner .num li{
+	width: 10px;
+	height: 10px;
+	background-color: #888;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 3px;
+	cursor: pointer;
+}
+.on{
+	background-color: #ff6a00;
+}
+.banner .btn{
+	width: 30px;
+	height: 50px;
+	background-color: #808080;
+	opacity: 0.5;
+	position: absolute;
+	top: 45%;
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	font-size: 40px;
+	color: #fff;
+ 	display: none;
+}
+.banner .btn_pre{
+	left: 0;
+}
+.banner .btn_next{
+	right: 0;
+}
+.banner:hover .btn{
+	display: block;
+}

@@ -1,0 +1,42 @@
+body{
+	background-image: url(../../img/bg.jpg);
+	background-size: cover;
+	padding-top: 200px;
+}
+
+
+
+.main{
+	width: 300px;
+	height: 350px;
+	margin: 0 auto;
+	padding: 50px 0 50px 50px;
+	background-color: rgba(225, 225, 225, 0.6);
+}
+.user{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-top: 30px;
+	margin-left: 95px;
+	margin-bottom: 45px;
+}
+.loding{
+	width: 166px;
+	height: 30px;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	margin-left: 35px;
+}
+.btn{
+	width: 80px;
+	height: 30px;
+	border: none; 
+	border-radius: 3px;
+	background-color: rgb(215, 159, 159);
+	font-weight: 600;
+	margin-left: 35px;
+}
+.btn2{
+	margin-left: 20px;
+}
